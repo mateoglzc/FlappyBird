@@ -121,7 +121,7 @@ def registerRecord(screen, input_box, events, title, font, sc) -> str:
         x = 105
         y = 145
 
-        for i in range(15):
+        for i in range(10):
 
             if i < len(names):
                 name = font.render(f'{names[i]}', True, (0,0,0))
